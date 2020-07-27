@@ -1,0 +1,234 @@
+
+
+.card2 {
+    height: 480px;
+}
+
+.card2 h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.card2:last-child {
+    margin-bottom:100px;
+}
+
+.textcard2{
+    height:40%;
+}
+
+.textcard2 p{
+    width:90%;
+    
+}
+
+
+#sumupair, #sumuptroisg, #izettlereaderdeux, #sumupduo, #pocketsmile,#maxismile, #yavinmillenium, #yavinx, #ingenico {
+    scroll-margin-top:100px;
+}
+
+
+.logo-term {
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.reader2 {
+    width:45%;
+}
+
+
+.logo-term .reader2 {
+    width:20%;
+}
+
+
+.logo-term .izettle {
+    width:20%;
+}
+
+.logo-term .sumup3g  {
+    width:20%;
+}
+
+.logo-term .pocketsmile {
+    width:15%;
+}
+
+.logo-term .maxismile {
+    width:20%;
+}
+
+
+.logo-term .yavinm {
+    width:20%;
+}
+
+.logo-term .yavinx {
+    width:25%;
+}
+
+.logo-term .ingenico {
+    width:30%;
+}
+
+.logo-term .ingenico-logo {
+    width:25%;
+}
+
+
+
+.yavin-logo {
+    width:25%;
+}
+
+.smile-logo {
+    width:35%;
+}
+
+
+
+.maxismile {
+    width:50%;
+}
+
+.yavinm {
+    width:50%;
+}
+
+.yavinx {
+    width:60%;
+}
+
+.sumup3g {
+    width:50%;
+}
+
+.ingenico {
+    width:85%;
+}
+
+
+.sumupair {
+    width:20%;
+}
+
+.sumupduo {
+    width:25%;
+}
+
+.izettle {
+    width:25%;
+}
+
+.sumup {
+    width:35%;
+}
+
+.logo-term {
+    overflow: hidden;
+}
+
+
+@media (min-width:768px) { 
+
+    .logo-term  {
+        width:70%;
+       
+    }
+
+    .big-term {
+        width:70px;
+    }
+
+
+    .logo-term .yavin-logo {
+        max-width:30%;
+    }
+    
+    
+
+.logo-term .izettle {
+    max-width:27%;
+}
+
+    .sumup {
+        max-width:45%;
+    }
+    
+
+    .smile-logo {
+        max-width:45%;
+    }
+    
+
+
+}
+
+
+
+
+
+@media (min-width:1200px) { 
+    .card {
+        width: 70%;
+        height: 350px;
+        
+    }
+
+    
+    .card2 {
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+        
+    }
+
+
+    .big-term {
+        width:90px;
+    }
+
+    
+    #sumupair, #sumuptroisg, #izettlereaderdeux, #sumupduo, #pocketsmile,#maxismile, #yavinmillenium, #yavinx, #ingenico {
+        scroll-margin-top:300px;
+    }
+
+    
+.logo-term {
+    height:80%;
+    width: 100%;
+    justify-content:flex-start;
+     display:flex;
+     flex-direction:column;
+     justify-content:space-around;
+ }
+ 
+ 
+ 
+ 
+ 
+ .logo-term img {
+     padding-left: 0;
+     margin-top:0;
+ }
+ 
+ 
+ .textcard2 {
+     height:80%;
+     width: 40%;
+    
+ }
+ 
+ .textcard2 p {
+     font-size: 16px;
+ }
+ 
+
+}

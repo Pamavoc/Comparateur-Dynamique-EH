@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparateur</title>
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+    
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet" rel="prefetch">
+    <link href="css/style.css" rel="stylesheet" rel="prefetch">
+
+    <style>
+
+        body {
+            background: #EFEFEF;
+        }
+
+
+        .loading {
+    background: #203248;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    
+    color: white;
+    opacity: 1;
+    transition: 0.5s;
+    visibility: visible;
+    z-index: 10000000000000000;
+    flex-direction: column;
+}
+
+
+  
+.loading img {
+      width:80px;
+      height:80px;
+}
+
+#entrepreneurhero-logo {
+        width:300px;
+        height:80px;
+        margin-bottom: 50px;
+}
+
+
+    </style>
+</head>
+<body>
+    
+    <section class="loading">
+        <img src="images/logo.svg" id="entrepreneurhero-logo" alt="">
+        <img src="images/tail-spin.svg">
+    </section>
+    
+
+    <script src="js/loading.js"></script>
+    <script src="js/jquery-3.5.1.min.js" rel="prefetch"></script>
+    <script src="js/isotope.pkgd.min.js" rel="prefetch"></script>
+    
+</body>
+</html>
